@@ -1,0 +1,13 @@
+package br.com.chronosacademy.logica;
+
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+class LogicaTest {
+    @Test
+    public void validaTerrenoGrande(){
+        Logica logica = new Logica();
+        assertEquals("Terreno grande" , logica.getTipoTerreno(101));
+    }
+}
